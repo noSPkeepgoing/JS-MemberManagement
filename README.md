@@ -1,20 +1,4 @@
-# 멤버 관리 시스템 ⛑️
-
-## 과제 필수 요구사항
-
-✅ “AWS S3 / Firebase 같은 서비스”를 이용하여 사진을 관리할 수 있는 페이지를 구현하세요.  
-✅ 프로필 페이지를 개발하세요.  
-✅ 스크롤이 가능한 형태의 리스팅 페이지를 개발하세요.  
-✅ 전체 페이지 데스크탑-모바일 반응형 페이지를 개발하세요.  
-✅ 사진을 등록, 수정, 삭제가 가능해야 합니다.  
-✅ 유저 플로우를 제작하여 리드미에 추가하세요.
-
-CSS  
-✅ 애니메이션 구현  
-✅ 상대수치 사용(rem, em)
-
-JavaScript  
-✅ DOM event 조작
+# 멤버 관리 시스템 🫂
 
 ## 배포 주소
 
@@ -60,9 +44,19 @@ JavaScript
 
   - 상단의 토글 버튼을 누르면 light모드와 dark모드로 변경 가능
 
-## 유저 플로우
+- 부서별로 보기
 
-  <img width="438" alt="스크린샷 2023-08-18 오후 6 03 03" src="https://github.com/noSPkeepgoing/TIL/assets/125979833/3b501747-3e37-4bf4-b97e-6e237cbef07c">
+  ![category](https://github.com/KDT1-FE/Y_FE_JAVASCRIPT_PICTURE/assets/125979833/6a4e88ef-b8cf-4db9-bdfe-7c65e60bb036)
+
+  - 드롭다운 형식으로 부서를 보이고 선택 시 해당 부서의 아이템만 보임
+
+- 검색기능
+
+  ![search](https://github.com/KDT1-FE/Y_FE_JAVASCRIPT_PICTURE/assets/125979833/7c2681e8-be10-4da4-adf0-fd421eef11e1)
+
+  - 헤더의 돋보기 아이콘을 누르면 검색 `form`을 보임
+  - `submit` 이벤트 발생 시 검색 결과를 보임
+  - `localstorage`를 이용해서 사용자의 직전 검색을 기억
 
 ## 기술 스택
 
